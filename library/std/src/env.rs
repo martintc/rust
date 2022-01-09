@@ -914,6 +914,7 @@ pub mod consts {
     /// - ios
     /// - freebsd
     /// - dragonfly
+    /// - midnightbsd
     /// - netbsd
     /// - openbsd
     /// - solaris

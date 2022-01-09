@@ -121,6 +121,7 @@ pub fn gnu_target(target: &str) -> &str {
 pub fn make(host: &str) -> PathBuf {
     if host.contains("dragonfly")
         || host.contains("freebsd")
+        || host.contains("midnightbsd")
         || host.contains("netbsd")
         || host.contains("openbsd")
     {

@@ -241,7 +241,8 @@ impl StdError for JoinPathsError {
     }
 }
 
-#[cfg(any(target_os = "freebsd", target_os = "dragonfly"))]
+#[cfg(any(target_os = "freebsd", target_os = "dragonfly",
+target_os = "midnightbsd" ))]
 pub fn current_exe() -> io::Result<PathBuf> {
     unsafe {
         let mut mib = [

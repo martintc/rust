@@ -202,6 +202,7 @@ pub struct Params {
                   target_os = "cloudabi",
                   target_os = "macos", target_os = "ios",
                   target_os = "freebsd",
+                  target_os = "midnightbsd",
                   target_os = "openbsd",
                   target_os = "redox",
                   target_os = "fuchsia",

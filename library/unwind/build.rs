@@ -22,6 +22,8 @@ fn main() {
         println!("cargo:rustc-link-lib=dl");
     } else if target.contains("freebsd") {
         println!("cargo:rustc-link-lib=gcc_s");
+    } else if target.contains("midnightbsd") {
+        println!("cargo:rustc-link-lib=gcc_s");
     } else if target.contains("netbsd") {
         println!("cargo:rustc-link-lib=gcc_s");
     } else if target.contains("openbsd") {
