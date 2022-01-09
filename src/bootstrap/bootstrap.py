@@ -252,7 +252,7 @@ def default_build_triple(verbose):
         'DragonFly': 'unknown-dragonfly',
         'FreeBSD': 'unknown-freebsd',
         'Haiku': 'unknown-haiku',
-        'MidnightBSD': 'unknown-midnightbsd',
+        'MidnightBSD': 'unknown-freebsd',
         'NetBSD': 'unknown-netbsd',
         'OpenBSD': 'unknown-openbsd'
     }
