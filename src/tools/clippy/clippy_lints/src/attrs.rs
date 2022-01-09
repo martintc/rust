@@ -32,6 +32,7 @@ static UNIX_SYSTEMS: &[&str] = &[
     "l4re",
     "linux",
     "macos",
+    "midnightbsd",
     "netbsd",
     "openbsd",
     "redox",

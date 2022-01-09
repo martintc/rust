@@ -183,7 +183,7 @@ define_Conf! {
         "WebGL",
         "TensorFlow",
         "TrueType",
-        "iOS", "macOS", "FreeBSD",
+        "iOS", "macOS", "FreeBSD", "MidnightBSD",
         "TeX", "LaTeX", "BibTeX", "BibLaTeX",
         "MinGW",
         "CamelCase",
